@@ -1,0 +1,90 @@
+.componente-grafico {
+    .top {
+        width: 100%;
+        display: inline-block;
+        text-align: right;
+        margin-bottom: 20px;
+        h3,
+        div {
+            display: inline-block;
+            vertical-align: middle;
+            @media #{$mobile} {
+                display: block;
+                width: 100%;
+                float: none;
+                margin: 0 auto;
+            }
+        }
+        h3 {
+            @media #{$mobile} {
+                float: none;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    h3 {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        text-align: left;
+    }
+    .periodo {
+        &.center-xs {
+            @media #{$mobile-y-tablet} {
+                text-align: center;
+                width: 100%;
+                font-size: 0;
+                a {
+                    //margin-right: -4px;
+                    float: none;
+                }
+            }
+        }
+    }
+    a {
+        width: 65px;
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+        float: left;
+        padding: 5px;
+        border: 1px solid #82c8e3;
+        color: #82c8e3;
+        @media #{$mobile-y-tablet} {
+            width: 74px;
+        }
+        &.active {
+            background-color: #82c8e3;
+            color: white;
+        }
+        &:first-of-type {
+            -webkit-border-top-left-radius: 5px;
+            -moz-border-top-left-radius: 5px;
+            -ms-border-top-left-radius: 5px;
+            -o-border-top-left-radius: 5px;
+            border-top-left-radius: 5px;
+            -webkit-border-bottom-left-radius: 5px;
+            -moz-border-bottom-left-radius: 5px;
+            -ms-border-bottom-left-radius: 5px;
+            -o-border-bottom-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-right: 0;
+        }
+        &:last-of-type {
+            -webkit-border-top-right-radius: 5px;
+            -moz-border-top-right-radius: 5px;
+            -ms-border-top-right-radius: 5px;
+            -o-border-top-right-radius: 5px;
+            border-top-right-radius: 5px;
+            -webkit-border-bottom-right-radius: 5px;
+            -moz-border-bottom-right-radius: 5px;
+            -ms-border-bottom-right-radius: 5px;
+            -o-border-bottom-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-left: 0;
+        }
+    }
+    &.style-1 {}
+    &.style-2 {}
+}

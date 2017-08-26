@@ -1,0 +1,69 @@
+{
+    "texto": [
+        {
+            "x": "Meses",
+            "y": "Litros"
+        }
+    ],
+    "datos": [
+        {
+            "mes": "Enero",
+            "mesAbr": "Ene",
+            "valor": 1240000
+        },
+        {
+            "mes": "Febrero",
+            "mesAbr": "Feb",
+            "valor": 1235000
+        },
+        {
+            "mes": "Marzo",
+            "mesAbr": "Mar",
+            "valor": 1150000
+        },
+        {
+            "mes": "Abril",
+            "mesAbr": "Abr",
+            "valor": 1035000
+        },
+        {
+            "mes": "Mayo",
+            "mesAbr": "May",
+            "valor": 1240000
+        },
+        {
+            "mes": "Junio",
+            "mesAbr": "Jun",
+            "valor": 1240000
+        },
+        {
+            "mes": "Julio",
+            "mesAbr": "Jul",
+            "valor": 1240000
+        },
+        {
+            "mes": "Agosto",
+            "mesAbr": "Ago",
+            "valor": 1240000
+        },
+        {
+            "mes": "Septiembre",
+            "mesAbr": "Sep",
+            "valor": 1240000
+        },
+        {
+            "mes": "Octubre",
+            "mesAbr": "Oct",
+            "valor": 1240000
+        },
+        {
+            "mes": "Noviembre",
+            "mesAbr": "Nov",
+            "valor": 1240000
+        },
+        {
+            "mes": "Diciembre",
+            "mesAbr": "Dic",
+            "valor": 1240000
+        }]
+}

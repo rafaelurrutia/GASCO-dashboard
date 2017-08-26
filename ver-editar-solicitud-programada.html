@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GASCO</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/libs/animate.css" rel="stylesheet">
+    <link href="css/libs/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/libs/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/3613ac0212.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+    <main>
+
+        <header>
+            <nav class="top_menu">
+                <ul>
+                    <li><a href="#">Catálogo de productos</a></li>
+                    <li><a href="#">Manuales y fichas técnicas</a></li>
+                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Contactar ejecutivo</a></li>
+                </ul>
+            </nav>
+            <nav class="bottom_menu">
+                <div class="col-md-2 col-sm-4 col-xs-8">
+                    <img src="img/logo-Gasco.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-7 col-sm-7 menu-option">
+                    <div class="content_menu">
+                        <ul>
+                            <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i><span class="visible-xs-inline-block visible-sm-inline-block">Inicio</span></a></li>
+                            <li><a href="#">Niveles de estanque</a></li>
+                            <li><a href="#">Pedidos</a></li>
+                            <li><a href="#">Cargas facturadas</a></li>
+                            <li><a href="#">Facturas y documentos</a></li>
+                            <li><a href="#">Gestión de cuenta</a></li>
+                        </ul>
+                        <ul class="visible-xs visible-sm">
+                            <li>
+                                <a href="#"><i class="fa fa-power-off" aria-hidden="true"></i><span class="visible-xs-inline-block visible-sm-inline-block">Cerrar sesión</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-8 col-xs-4">
+                    <a href="" class="notificaciones">
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+                        <span>33</span>
+                    </a>
+
+                    <button class="menu-mobile c-hamburger--htx visible-xs-inline-block visible-sm-inline-block"> 
+                  <span>toggle menu</span>
+                </button>
+
+                    <a href="" class="usuario hidden-xs hidden-sm">
+                        <img src="img/avatar.png" alt="">
+                        <span>Nombre usuario <i class="fa fa-caret-down"></i></span>
+                    </a>
+
+                    <a href="#" class="cerrar-sesion hidden-xs hidden-sm"><i class="fa fa-power-off" aria-hidden="true"></i><span class="">Cerrar sesión</span></a>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h2><strong>Pedido XXXXXX | Tipo: Recurrente</strong></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="notificaciones-box mini">
+                            <li class="notificacion-box notificacion-verde">
+                                <span><em>Estado: </em> Aprobado</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="componente-tabla style-div style-9">
+
+            <div class="container">
+
+                <div class="table-content">
+                    <div class="row table-parent open">
+                        <div class="col-md-11 col-sm-11 col-xs-11">
+                            <strong>Los Peumos</strong>
+                        </div>
+                        <div class="col-md-1 col-sm-1 col-xs-1 text-right">
+                            <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="row table-children">
+                        <div class="row table-header hidden-xs">
+                            <div class="col-md-3 col-sm-3">
+                                <strong>Estanque</strong><i class="fa fa-sort" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <strong>Frecuencia mensual</strong>
+                            </div>
+                            <div class="col-md-5 col-sm-5">
+                                <strong>Porcentaje a cargar</strong>
+                            </div>
+                        </div>
+                        <div class="row table-row">
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <span class="visible-xs-inline col-xs-6">Estanque</span> 
+                                <em class="col-xs-6">V1234567</em>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                               <a class="show-form-tooltip" href="">Semanalmente, los Lunes. <i class="glyphicon glyphicon-pencil"></i> </a>
+                            </div>
+                            <div class="visible-xs col-xs-12">
+
+                            </div>
+                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                <div class="componente-range style-2">
+                                    <div class="slider" data-value="50" data-max="100" data-min="0" data-limit="80">
+                                        <div class="range-limit"></div>
+                                        <div class="range-value"></div>
+                                    </div>
+                                    <output></output>
+                                    <small>Cargar con 1000 litros aprox.</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="container componente-paginacion">
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <strong>300 Resultados | Ver </strong>
+                    <div class="select-sort">
+                        <span><i class="fa fa-sort" aria-hidden="true"></i></span>
+                        <select name="" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <strong>por página</strong>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <a href=""><i class="fa fa-fast-backward" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-backward" aria-hidden="true"></i></a>
+                    <input type="text">
+                    <strong>de 20</strong>
+                    <a href=""><i class="fa fa-forward" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-fast-forward" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="push"></div>
+
+    </main>
+
+<div class="box-seleccionar-frecuencia">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="">
+                                                        Escoge la frecuencia de despacho
+                                                    </label>
+                        <div class="select-pedidos">
+                            <i class="glyphicon glyphicon-triangle-bottom"></i>
+                            <select name="" id="" class="form-control">
+                            <option value="">Todos</option>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="">
+                                                        Repetir cada
+                                                    </label>
+                        <div class="select-pedidos">
+                            <i class="glyphicon glyphicon-triangle-bottom"></i>
+                            <select name="" id="" class="form-control">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                        </div>
+                        <span>Semana (s)</span>
+                    </div>
+
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <strong>Días de entregas en la semana</strong>
+                    <div class="componente-checkbox-dias">
+
+                        <input type="checkbox" id="d1" name="cc" checked />
+                        <label for="d1"><span></span>Lu</label>
+
+                        <input type="checkbox" id="d2" name="cc" />
+                        <label for="d2"><span></span>Ma</label>
+
+                        <input type="checkbox" id="d3" name="cc" disabled />
+                        <label for="d3"><span></span>Mi</label>
+
+                        <input type="checkbox" id="d4" name="cc" checked />
+                        <label for="d4"><span></span>Ju</label>
+
+                        <input type="checkbox" id="d5" name="cc" />
+                        <label for="d5"><span></span>Vi</label>
+
+                        <input type="checkbox" id="d6" name="cc" disabled checked />
+                        <label for="d6"><span></span>Sa</label>
+
+                        <input type="checkbox" id="d7" name="cc" />
+                        <label for="d7"><span></span>Do</label>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="">Comienza</label>
+                        <div class="input-group date" id="datetimepicker1">
+                            <input type="text" class="form-control">
+                            <span class="input-group-addon">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="">Termina</label>
+                    <div class="radiobutton-despacho">
+                        <input type="radio" id="t-option1" name="selector">
+                        <label for="t-option1">
+                                                            <div class="form-group">
+                                                        
+                                                        <div class="input-group date" id="datetimepicker1">
+                                                            <input type="text" class="form-control">
+                                                            <span class="input-group-addon">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                </span>
+                                                        </div>
+                                                    </div>
+                                                            
+                                                            
+                                                        </label>
+                        <div class="check">
+                            <div class="inside"></div>
+                        </div>
+                    </div>
+
+                    <div class="radiobutton-despacho">
+                        <input type="radio" id="t-option2" name="selector">
+                        <label for="t-option2"><span>Nunca</span></label>
+                        <div class="check">
+                            <div class="inside"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <span>Resumen:</span><br>
+                    <strong>Semanalmentee, los Lunes y Jueves.</strong>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6 text-right">
+                    <a id="close-tooltipForm" href="" class="link">cancelar</a> <button class="btn btn-yellow">guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <footer class="niveles-por-estanque">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-push-8 col-sm-4 col-sm-push-8 col-xs-12">
+                    <a href="" class="btn btn-yellow">guardar</a>
+                </div>
+                <div class="col-md-8 col-md-pull-4 col-sm-8 col-sm-pull-4 col-xs-12 text-right">
+                    <a href="" class="link">volver</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/libs/moment.min.js"></script>
+    <script src="js/libs/es.js"></script>
+    <script src="js/libs/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/libs/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        // rangeslider
+        $(function() {
+            var $sliders = [];
+
+            $(".componente-range").each(function(index) {
+
+                $(this).find("output").html($(this).find(".slider").attr("data-value"));
+                $(this).find('.range-limit').width($(this).find(".slider").attr("data-max") - $(this).find(".slider").attr("data-limit") + '%');
+
+                $sliders = $(this).find(".slider").slider({
+                    step: 1,
+                    slide: function(event, ui) {
+                        var sum = 0;
+                        $(this).find(".slider").not(this).each(function() {
+                            sum += $(this).slider("value");
+                        });
+                        sum += ui.value;
+
+                        if (sum > $(this).attr("data-limit")) {
+                            event.preventDefault();
+                        } else {
+                            $(this).next().html(ui.value);
+                            $(this).find('.range-value').width(ui.value + '%');
+                        }
+                    },
+                    value: $(this).find(".slider").attr("data-value")
+                });
+                $(this).find(".range-value").width($(this).find('.slider').attr("data-value") + '%');
+            });
+        });
+
+        // datetimepicker
+        $(function() {
+            $("div[id^='datetimepicker']").datetimepicker({
+                format: 'DD/MM/YYYY',
+                debug: true,
+                locale: 'es'
+            });
+        });
+        
+        // modal tooltip
+        var modal = null;
+
+        $(function() {
+
+            function resizeTooltipForm(thisObj) {
+                var newwidth = $(window).width();
+                var newheight = $(window).height();
+                if (thisObj != null) {
+                    if (newwidth < 767) {
+                        thisObj.parent().next().append($(".box-seleccionar-frecuencia"));
+                    } else {
+                        $(".box-seleccionar-frecuencia").insertAfter(thisObj);
+                    }
+                }
+            }
+
+            $(".show-form-tooltip").click(function(e) {
+                e.preventDefault();
+                modal = $(this);
+                resizeTooltipForm($(this));
+                $(".box-seleccionar-frecuencia").slideDown();
+                $(".box-seleccionar-frecuencia").addClass('open');
+                $(".push").addClass('expandir');
+
+            });
+
+            $("#close-tooltipForm").click(function(e) {
+                e.preventDefault();
+                $(".box-seleccionar-frecuencia").slideUp();
+                $(".box-seleccionar-frecuencia").removeClass('open');
+                $(".push").removeClass('expandir');
+            });
+
+            $(window).resize(function() {
+                resizeTooltipForm(modal);
+            });
+
+        });
+        
+
+    </script>
+
+    <div class="mask"></div>
+</body>
+
+</html>
